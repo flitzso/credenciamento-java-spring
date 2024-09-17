@@ -1,0 +1,23 @@
+nome
+dataDeNascimento
+cpf
+telefone
+email
+senha
+
+
+http://localhost:8085/api/v1/credenciamento/list
+http://localhost:8085/api/v1/credenciamento/create
+http://localhost:8085/api/v1/credenciamento/{id}
+
+
+{
+  "nome": "João Silva",
+  "dataDeNascimento": "1990-01-15",
+  "cpf": "123.456.789-00",
+  "telefone": "+55 11 98765-4321",
+  "email": "joao.silva@email.com",
+  "senha": "minhasenha123"
+}
+
+SELECT * FROM credenciamento;
